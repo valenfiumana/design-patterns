@@ -4,8 +4,8 @@ Welcome to the Github repository for design pattern exercises in Java! In this r
 ### Design Patterns Covered
 This repository includes exercises that demonstrate the following design patterns:
 * Creational Patterns: Singleton, Factory Method, Abstract Factory
-* Structural Patterns:  Facade, Flyweight, Proxy
-* Behavioral Patterns: Chain of Responsibility, Template Method
+* Structural Patterns:  [Facade](./Facade/facade.md), [Flyweight](./FlyWeight/flyweight.md), [Proxy](./Proxy/proxy.md)
+* Behavioral Patterns: [Chain of Responsibility](./ChainOfResponsibility/responsibility.md), [Template Method](./TemplateMethod/template.md)
 
 Here you'll find several folders, each of which contains exercises related to a particular design pattern. The folders are named after the corresponding design patterns, such as "Singleton," "Factory," "Proxy," etc.
 
