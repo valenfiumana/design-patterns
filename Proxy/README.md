@@ -15,10 +15,12 @@ Después, se debe actualizar nuestra aplicación para que los clientes se comuni
 * Al agregar una capa más entre el cliente y el servicio real, la respuesta puede retrasarse.
 
 ## Ejercicios
-### Ejercicio 1 - Spotify (clase 5)
+### Ejercicio 1 - Spotify 
 El servicio de Spotify pago permite descargar canciones para escuchar offline. Cuando un usuario solicita descargar una canción, el servicio de Spotify comprueba si es un usuario premium, para darle acceso a esta funcionalidad. Los usuarios tienen un identificador y un Enum con el tipo de usuario (“Free”, “Premium”).
 Implementar una clase servicioDescarga que permita descargar una canción y mediante el patrón proxy comprobar si es posible hacerlo. 
 Crear los casos de prueba necesarios para garantizar la calidad del método descargar().
+
+[Resolucion](./clase5/src/Spotify/)
 
 ### Ejercicio 2 - Vacunas
 En un centro de vacunación las personas inscriptas y con turno —además de conocer
@@ -35,7 +37,9 @@ información registrada.
 
 Crear los casos de prueba requeridos para garantizar la calidad del método vacunar().
 
-### Ejercicio 3 - Movies (clase 6 mesas)
+[Resolucion](./clase5/src/Vacunas/)
+
+### Ejercicio 3 - Movies
 Como cliente, queremos que la aplicación nos permita hacer un pedido con el nombre de la serie y nos envíe el link de reproducción. El único límite impuesto a nuestra petición es que la cantidad de series no puede ser más de 5 por semana. Para poder saber cuántas ya fueron vistas se llevará un contador.
 Se propone crear una estructuras de clases similar al ejercicio anterior, con las siguientes clases:
 
@@ -45,6 +49,8 @@ Se propone crear una estructuras de clases similar al ejercicio anterior, con la
 
 En el método main, realizar pedidos de series con el nombre. Mostrar el link de la serie si está habilitada. Si no, mostrar un cartel de “Ha superado la cantidad de reproducciones permitidas”.
 Codificar los casos de pruebas que sean requeridos para garantizar la calidad del método getPelicula().
+
+[Resolucion](./movies/src/Movies/)
 
 ### Ejercicio 4 - Grilla películas
 Estamos desarrollando una aplicación de streaming, al estilo Netflix, con el objetivo de
@@ -85,8 +91,13 @@ ejemplos de los 3 países). Mostrar el link de la película si está habilitada.
 un cartel de “Película no disponible en su país”.
 Realizar las pruebas necesarias para garantizar la calidad del método getPelicula().
 
+![uml](./movies/src/Grilla%20Peliculas/grilla.png)
+
+[Resolucion](./movies/src/Grilla%20Peliculas/)
 
 ### Ejercicio 3 - Internet
 Pensemos en un escenario de la vida real, en algunos lugares, como la universidad o el trabajo, la red que nos conecta a Internet está limitada y no tenemos acceso a todos los sitios. 
 Puede ser que tengamos un proxy que esté restringiendo el acceso y en lugar de conectarnos directamente a Internet, estemos comunicándonos con el proxy y sea este el que finalmente se comunica con Internet.
+
+[Resolucion](./Internet/src/com/dh/proxy/)
 
