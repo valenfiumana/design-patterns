@@ -38,3 +38,6 @@ Cuando un cliente adquiere los productos, los empleados deben armar el paquete d
 Necesitamos un sistema que muestre un mensaje a los empleados sobre cómo debe armarse el menú. De esta manera, podremos garantizar la uniformidad en las entregas. Luego, deberá informar el costo final del menú vendido.
 Debemos desarrollar las clases y pruebas necesarias para lograr el proceso explicado de preparación.
 
+![uml](./Menu/src/Menu/menu.png)
+
+[Resolucion](./Menu/src/)
