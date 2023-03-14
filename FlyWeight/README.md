@@ -23,7 +23,9 @@ La receta para una hamburguesa podría estar en varias secciones: americana, car
 
 Entonces, el cliente pide un objeto a la FlyweightFactory, esta se fija si existe en el caché y en caso contrario crea uno nuevo. Flyweight comparte el estado de los objetos.
 
-### Ejercicio 2 - Bosques (clase7-Flyweight/src/mesas/)
+[Resolucion](./ComidaFlyweight/src/digital/house/flyweight/)
+
+### Ejercicio 2 - Bosques 
 En un negocio necesitan crear árboles para poder ver cuánto lugar ocuparían. El programa que tiene actualmente posee un elevado consumo de los recursos. Necesita crear 1.000.000 árboles. El proceso para crear los árboles son, cada árbol tiene un Alto, Ancho, color y tipo de árbol. Los tipos de árboles que hay son:
 * Ornamentales
     * Alto: 200.
@@ -47,6 +49,8 @@ System.out.println("Memoria usada: " + (runtime.totalMemory() - runtime.freeMemo
 
 ```
 
+[Resolucion](./clase7-Flyweight/src/Bosques/)
+
 ### Ejercicio 3 - Computadoras
 Un negocio necesita generar computadoras con distintas especificaciones, así como
 también reutilizar las mismas especificaciones. Los tipos de computadoras que hay son :
@@ -67,3 +71,7 @@ optimizada. Las computadoras tendrán los siguiente atributos:
 ComputadoraFactory va ser el contenedor de computadoras que almacenará los
 diferentes tipos. Se necesitará aplicar si el la computadora existe obtenerla sino generarla.
 Necesitamos que nos informe las computadoras creadas.
+
+![uml](./clase7-Flyweight/src/Computadora/computadora.png)
+
+[Resolucion](./clase7-Flyweight/src/Computadora/)
