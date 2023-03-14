@@ -35,6 +35,9 @@ Se desea que una clase AnalistaDeCalidad vaya enviando el artículo a cada uno d
 Por último, se debe hacer una clase que cree un artículo y le pida a CompruebaCalidad que lo verifique.
 Realizar los casos de prueba necesarios para garantizar la calidad del método validarCalidadDelProducto()
 
+![uml](./src/Calidad%20de%20Producto/calidad.png)
+
+[Resolucion](./src/Calidad%20de%20Producto)
 
 ### Ejercicio 2 - Mails
 En la empresa llamada Colmena hay tres departamentos: gerencia, comercial y técnico.
@@ -55,3 +58,7 @@ Por último, desde una clase ProcesaMail, se crea un mail y se le pide a Comprue
 que lo procese e informe donde debe ir.
 Realizar los casos de prueba necesarios para garantizar la calidad del método
 comprobarMail() de la clase CompruebaMail.
+
+![uml](./src/Mails/mails.png)
+
+[Resolucion](./src/Mails)
